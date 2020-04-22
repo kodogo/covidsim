@@ -14,4 +14,4 @@ Details are in the two Otago papers in the doc folder. The version of the model 
 
 One slight complication over simple SIR type models is that the E, P, and I phases are modelled as an Erlang distribution using 16 stages -  a couple of papers in the doc section explain this sort of thing. In practice it doesn’t seem to make a big difference, especially given the uncertainties in the underlying quantities.
 
-The code itself is in /src. params.py has the assumptions, and model.py just plugs these into the psych ode solver. Not fully tested, but the results were close enough to the published ones to convince me it was about right.
+The code itself is in /src. params.py has the assumptions, and covidsim.py just plugs these into the psych ode solver. Not fully tested, but the results were close enough to the published ones to convince me it was about right.
